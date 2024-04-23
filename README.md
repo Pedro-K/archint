@@ -1,16 +1,17 @@
 ## 💻 Desafio - Archint
 Esse projeto foi um desafio de recriar uma aplicação, a partir de um layout pronto no Figma.
----
-[Clique aqui para acessar](https://archint-three.vercel.app/)
-<br>
----
+
 <p align="center">
   <img alt="" src="./src/assets/preview.png" width="100%">
 </p>
 
+[Clique aqui para acessar](https://archint-three.vercel.app/)
+<br>
+<br>
+
 ## 👨‍💻 Como baixar e rodar
 
-Faça o download do projeto, clicando no botão verde "< > Code" depois em "Download ZIP".
+Faça o download do projeto, clicando no botão verde "< > Code" depois em "Download ZIP". <br>
 Após isso extraia o arquivo onde desejar e abra-o no "Vs code",
 abra o terminal do "Vs code" e digite:
 
