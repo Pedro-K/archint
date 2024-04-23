@@ -15,11 +15,13 @@
   font-family: Inter, sans-serif;
   font-size: clamp(40%, 1% + 2vw, 62.5%);
   --bg-body: #f4f4f4;
-  --color-text: #3e334e;
   --bg-primary: #3e334e;
+  --bg-banner: #191A24;
+  --color-text: #3e334e;
   --white: #ffffff ;
   --color-input: #463460;
   --color-border: #afa2c3;
+
 }
 
 body{

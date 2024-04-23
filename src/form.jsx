@@ -1,14 +1,17 @@
 import './form.css'
 import mobileBanner from './assets/mobileBanner.png'
+import banner from './assets/banner.png'
 import logo from '/Logo.png'
 
 function form() {
+  
 
   return (
     <>
-      <div className="app">
-        <img src={ mobileBanner } alt="Imagem da janela de um predio" id='banner-vertical'/>
-        <div className="container">
+      <div id="grid-container">
+        <img src={ mobileBanner } alt="Imagem da janela de um predio" id='mobileBanner'/>
+        <img src={ banner } alt="Imagem da janela de um predio" id='banner'/>
+        <div className="container" id='content'>
           <div>
             <img src={ logo } className="logo" alt="logo Archint" />
             <h1>Archint</h1>
@@ -20,7 +23,7 @@ function form() {
 
             <div className="input-email">
               <label htmlFor="input-email">Email</label>
-              <input type="mail" name="input-email" id="input-email" placeholder='robert.langster@gmail.com'/>
+              <input type="mail" name="input-email" id="input-email"/>
             </div>
 
             <div className="input-password">
@@ -31,23 +34,23 @@ function form() {
 
             <div className='extras'>
               <div className="checkBoxButton">
-                  <input type="checkbox" defaultChecked name="input-checkbox" id="input-checkbox" />
+                  <input type="checkbox" name="input-checkbox" id="input-checkbox" />
                   <label htmlFor="input-checkbox">Remember me</label>
               </div>
               <a href="#">Forgot password?</a>
             </div>
 
             <div className="formButtons">
-              <button className='buttonLogin'>Login</button>
-              <button className='buttonSignUp'>Sign Up</button>
+              <button className='buttonLogin' type='button'>Login</button>
+              <button className='buttonSignUp' type='button'>Sign Up</button>
             </div>
             
             <div className='otherLogins'>
               <p>Or, login with</p>
               <div className="otherButtons">
-                <button>Facebook</button>
-                <button>Linked In</button>
-                <button>Google</button>
+                <button type='button'>Facebook</button>
+                <button type='button'>Linked In</button>
+                <button type='button'>Google</button>
               </div>
             </div>
           </form>
