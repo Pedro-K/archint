@@ -1,0 +1,146 @@
+#banner-vertical {
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
+  margin-bottom: 3.2rem;
+}
+.container {
+  padding: 0 2.4rem;
+
+  div {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+    h1 {
+      font-size: 3.2rem;
+      font-weight: 600;
+    }
+  }
+
+  .label {
+    width: min(34.7rem, 100%);
+    font-size: 2rem;
+    line-height: 150%;
+    height: 6rem;
+    margin: 3.2rem 0;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    padding: 3.2rem 0;
+
+    h2 {
+      font-size: 2.4rem;
+      font-weight: 600;
+    }
+
+    .input-email,
+    .input-password {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.8rem;
+      position: relative;
+
+      label {
+        font-weight: 600;
+      }
+
+      input {
+        padding: 1.6rem;
+        background-color: transparent;
+        border: 1px solid var(--color-border);
+        border-radius: 8px;
+        width: 100%;
+        line-height: 24px;
+        outline: none;
+      }
+
+      input:focus,
+      input::placeholder {
+        color: var(--color-input);
+      }
+    }
+
+    #input-password {
+      color: var(--color-input);
+      font-family: "pass";
+    }
+
+    i.password {
+      background: url("./assets/eyeOff.png") no-repeat right;
+      width: 24px;
+      height: 24px;
+      text-align: center;
+      position: absolute;
+      right: 1.6rem;
+      bottom: 1.6rem;
+      cursor: pointer;
+    }
+
+    .extras {
+      justify-content: space-between;
+      align-items: center;
+      .checkBoxButton {
+        gap: 8px;
+
+        input[type="checkbox"],
+        label {
+          cursor: pointer;
+        }
+
+        input[type="checkbox"] {
+          width: 16px;
+          height: 16px;
+          accent-color: var(--color-text);
+        }
+      }
+
+      a {
+        text-decoration: underline;
+        text-align: right;
+      }
+    }
+    .formButtons {
+      justify-content: space-between;
+      gap: 2.4rem;
+
+      button {
+        padding: 1.6rem;
+        flex: 1;
+        border-radius: 0.8rem;
+        border: 1px solid #3e334e;
+        cursor: pointer;
+        font-weight: 600;
+        text-align: center;
+      }
+      .buttonLogin {
+        background: var(--bg-primary);
+        color: var(--white);
+      }
+    }
+
+    .otherLogins {
+      flex-direction: column;
+      p {
+        font-size: 1.4rem;
+      }
+
+      .otherButtons {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        button {
+          flex: 1;
+          padding: 1.2rem 1.6rem;
+          border: 1px solid var(--color-border);
+          border-radius: 0.4rem;
+          font-size: 1.4rem;
+          font-weight: 500;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
