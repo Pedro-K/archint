@@ -12,8 +12,7 @@ Esse projeto foi um desafio de recriar uma aplicação, a partir de um layout pr
 ## 👨‍💻 Como baixar e rodar
 
 Faça o download do projeto, clicando no botão verde "< > Code" depois em "Download ZIP". <br>
-Após isso extraia o arquivo onde desejar e abra-o no "Vs code",
-abra o terminal do "Vs code" e digite:
+Após isso extraia o arquivo onde desejar e utilizando o "Vs code" abra a pasta na onde se encontra o projeto. Em seguida abra o terminal do "Vs code" e digite:
 
 > npm i
 
